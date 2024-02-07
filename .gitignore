@@ -1,0 +1,79 @@
+### Sytem files ###
+*.log
+.DS_Store
+/.htaccess
+/sitemap.xml
+/sitemap.xml.gz
+
+# WordPress Core files and folders
+/index.php
+/license.txt
+/readme.html
+/wp-activate.php
+/wp-admin/
+/wp-admin
+/wp-blog-header.php
+/wp-comments-post.php
+/wp-config.php
+/wp-config-sample.php
+/wp-cron.php
+/wp-includes/
+/wp-includes
+/wp-links-opml.php
+/wp-load.php
+/wp-login.php
+/wp-mail.php
+/wp-settings.php
+/wp-signup.php
+/wp-trackback.php
+/xmlrpc.php
+
+# Languages
+wp-content/languages/
+
+# wp-content items 
+/wp-content/upgrade/
+
+### Themes ###
+# List the themes here #
+
+### Theme build files ###
+/wp-content/themes/notes.txt
+
+/wp-content/themes/*/node_modules
+/wp-content/themes/*/assets/dist/
+/wp-content/themes/*/assets-manifest.json
+/wp-content/themes/*/package-lock.json
+/wp-content/themes/*/inc/blocks/dist/
+/wp-content/themes/*/assets-manifest.json
+
+wp-content/themes/twentynineteen/
+wp-content/themes/twentytwenty/
+wp-content/themes/twentytwentyfour/
+wp-content/themes/twentytwentyone/
+wp-content/themes/twentytwentythree/
+wp-content/themes/twentytwentytwo/
+
+### Plugins ###
+#wp-content/plugins/akismet/
+#/wp-content/plugins/wp-dummy-content-generator/
+
+### Hosting Files ###
+/.user.ini
+/malcare-waf.php
+/wp-content/advanced-cache.php
+/wp-content/breeze-config/
+/wp-content/cache/
+/wp-content/mc_data/
+/wp-content/mu-plugins/
+/wp-content/object-cache.php
+/wp-salt.php
+
+
+# IDE Files
+.buildpath
+.settings/
+nbproject/
+/nbproject/private/
+.idea/
+.vscode
